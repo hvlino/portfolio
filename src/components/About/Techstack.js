@@ -1,52 +1,52 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
   DiGit,
+  DiScrum,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiTypescript,
+  SiCss3,
+  SiHtml5,
+  SiPython,
+  SiReact,
+  SiJavascript,
+  SiMysql,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiReact title="React"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiHtml5 title="HTML5"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiCss3 title="CSS3"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiJavascript title="JavaScript"/>
+      </Col>
+     <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript title="TypeScript"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiMysql title="MySQL"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiPython title="Python"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiNodejs title="NodeJS"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiScrum title="Scrum"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiGit title="GIT"/>
       </Col>
     </Row>
   );
