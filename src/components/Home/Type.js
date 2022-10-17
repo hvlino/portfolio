@@ -10,9 +10,9 @@ function Type() {
           "Electromechanical Engineer",
         ],
         autoStart: true,
-        loop: false,
-        deleteSpeed: 0,
-        delay: 0
+        loop: true,
+        deleteSpeed: 30,
+        delay: 50
       }}
     />
   );
