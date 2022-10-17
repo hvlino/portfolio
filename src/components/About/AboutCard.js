@@ -10,9 +10,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi there! I am <span className="purple">Henrique Lino </span>
-            from <span className="purple"> Brazil </span> currently living in Portugal.
-            <br /><br />I am a junior front-end developer focusing on React library and JavaScript projects.
+            Hi there! I am <span className="orange">Henrique Lino </span>
+            from <span className="orange"> Brazil </span> currently living in Portugal.
+            <br /><br />I am a junior front-end developer focusing on <span className="orange">React</span> library and  <span className="orange">JavaScript</span> projects.
             I'm also familiar with SQL, REST API and python.
             <br />
             <br />

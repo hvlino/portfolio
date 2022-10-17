@@ -27,13 +27,16 @@ function About() {
 
         </Row>
         <h1 className="project-heading">
-          My professional <strong className="purple">skill set: </strong>
+          My professional <strong className="orange">skill set: </strong>
         </h1>
+        <h6>
+          Move your <strong className="orange">mouse cursor </strong>over the icons to show its names.
+        </h6>
 
         <Techstack />
 
         <h1 className="project-heading">
-          The <strong className="purple">tools</strong> I use:
+          The <strong className="orange">tools</strong> I use:
         </h1>
         <Toolstack />
       </Container>
