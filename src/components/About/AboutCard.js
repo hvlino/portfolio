@@ -11,12 +11,13 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi there! I am <span className="orange">Henrique Lino </span>
-            from <span className="orange"> Brazil </span> currently living in Portugal.
-            <br /><br />I am a junior front-end developer focusing on <span className="orange">React</span> library and  <span className="orange">JavaScript</span> projects.
-            I'm also familiar with SQL, REST API and python.
+            from <span className="orange"> Brazil </span> currently living in <span className="orange"> Portugal </span> .
+            <br /><br />I am a junior front-end developer that have finished many React and JavaScript projects while applying <span className="orange"> Jira </span> and <span className="orange"> SCRUM agile methodologies</span>.
+            <br /><br />After graduating in electromechanical engineering I found out what my passion truly was:
+            working with <span className="orange"> technology and computation </span> . I want to become a full-stack developer always seeking knowledge and acquiring experience on my journey.
             <br />
             <br />
-            Besides coding, I also love:
+            Besides coding, those are my main hobbies:
           </p>
           <ul className="hobbies-container">
             <li className="hobbies-png-caption">

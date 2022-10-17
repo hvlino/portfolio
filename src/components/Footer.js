@@ -1,35 +1,26 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer-container">
       <Row>
-        <Col md="4" className="footer-copyright">
-          <h3>Portfolio by Henrique Lino</h3>
+        <Col md="4" className="footer-by">
+          <p>Portfolio by Henrique Lino</p>
         </Col>
         <Col md="4" className="footer-copyright">
-          <h3> © 2022</h3>
+          <p> © 2022</p>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+        <Col md="4" className="footer-icons">
               <a
                 href="https://github.com/hvlino"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <FaGithub />
               </a>
-            </li>
-            <li className="social-icons">
-            </li>
-            <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/hvlino/"
                 style={{ color: "white" }}
@@ -38,10 +29,14 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
-            <li className="social-icons">
-            </li>
-          </ul>
+              <a
+                href="https://www.twitter.com/hvlino"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
+              </a>
         </Col>
       </Row>
     </Container>

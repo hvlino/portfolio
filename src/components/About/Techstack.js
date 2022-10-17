@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiNodejs,
   DiGit,
@@ -13,40 +14,48 @@ import {
   SiReact,
   SiJavascript,
   SiMysql,
+  SiJest,
+  SiBootstrap,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiReact title="React"/>
+      <Col xs={4} md={2} className="tech-test">
+        <SiReact className="tech-icons" title="React"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 title="HTML5"/>
+      <Col xs={4} md={2} >
+        <SiHtml5 className="tech-icons" title="HTML5"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 title="CSS3"/>
+      <Col xs={4} md={2} >
+        <SiCss3 className="tech-icons" title="CSS3"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJavascript title="JavaScript"/>
+      <Col xs={4} md={2} >
+        <SiJavascript className="tech-icons" title="JavaScript"/>
       </Col>
-     <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript title="TypeScript"/>
+     <Col xs={4} md={2} >
+        <SiTypescript className="tech-icons" title="TypeScript"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql title="MySQL"/>
+      <Col xs={4} md={2} >
+        <SiMysql className="tech-icons" title="MySQL"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPython title="Python"/>
+      <Col xs={4} md={2} >
+        <SiPython className="tech-icons" title="Python"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs title="NodeJS"/>
+      <Col xs={4} md={2} >
+        <DiNodejs className="tech-icons" title="NodeJS"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiScrum title="Scrum"/>
+      <Col xs={4} md={2} >
+        <DiScrum className="tech-icons" title="Scrum"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit title="GIT"/>
+      <Col xs={4} md={2} >
+        <DiGit className="tech-icons" title="GIT"/>
+      </Col>
+      <Col xs={4} md={2} >
+        <SiJest className="tech-icons" title="Jest"/>
+      </Col>
+      <Col xs={4} md={2} >
+        <SiBootstrap className="tech-icons" title="Bootstrap"/>
       </Col>
     </Row>
   );
