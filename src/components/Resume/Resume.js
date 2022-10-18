@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 function ResumeNew() {
   return (
     <>
-      <Container fluid className="resume-section">
+      <Container fluid className="resume-container text-center">
 
         <Particle />
           <Button
@@ -24,7 +24,7 @@ function ResumeNew() {
             &nbsp;Download my Resume
           </Button>
 
-          <Document file={pdf} className="resume d-flex justify-content-center">
+          <Document file={pdf} className="resume-pdf d-flex justify-content-center">
             <Page pageNumber={1} scale={1.4} />
           </Document>
 

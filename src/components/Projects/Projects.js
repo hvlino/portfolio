@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import 1 from "../../Assets/Projects/leaf.png";
+import tictactoe from "../../Assets/Projects/tic-tac-toe.png";
 // import 2 from "../../Assets/Projects/emotion.png";
 // import 3 from "../../Assets/Projects/codeEditor.png";
 // import 4 from "../../Assets/Projects/chatify.png";
@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={chatify}
+              imgPath={tictactoe}
               isBlog={false}
-              title="1"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-              ghLink="https://github.com/"
-              // demoLink="https://chatify-49.web.app/"
+              title="Tic Tac Toe Game"
+              description="I am very proud of this project as I have developed the AI to actively try to win against the player at the hard difficulty. It is fully playable!"
+              ghLink="https://github.com/hvlino/reactjs-tic-tac-toe"
+              demoLink="https://hvlino.github.io/reactjs-tic-tac-toe"
             />
           </Col>
 

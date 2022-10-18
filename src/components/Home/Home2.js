@@ -22,7 +22,7 @@ function Home2() {
               I fell in love with programming while in college and I have learnt
               a lot since I began this journey in 2020.
               <br />
-              <br />I am focusing in front-end development and I have built many projects in
+              <br />I am focusing in front-end development and I have built many web projects in
               <i>
                 <b className="orange"> HTML, CSS, JavaScript and React. </b>
               </i>
@@ -32,9 +32,9 @@ function Home2() {
                 <b className="orange"> Django.
                 </b>
               </i>
-              &nbsp; using
+              &nbsp; I am familiar with
               <i>
-                <b className="orange"> MySQL </b>for database management.
+                <b className="orange"> MySQL </b>for database management and REST APIs.
               </i>
               <br />
               <br />

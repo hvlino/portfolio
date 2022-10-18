@@ -37,7 +37,7 @@
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #84510f !important;
+    background-color: rgba(132,81,15, 0.350) !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -350,7 +350,7 @@
 
 /* RESUME */
 
-.resume-section {
+.resume-container {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
@@ -358,7 +358,7 @@
   color: white !important;
 }
 
-.resume {
+.resume-pdf {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
